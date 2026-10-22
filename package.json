@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-mi-medical-exclusions",
+  "version": "0.1.0",
+  "description": "Michigan Medicaid provider sanctions screening: the Michigan Department of Health and Human Services (MDHHS) 'List of Sanctioned Providers'. State counterpart to the federal HHS OIG LEIE (leie pack) and sibling of il/tx/ny/ca/fl-medical-exclusions.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-mi-medical-exclusions": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "mi-medical-exclusions"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-mi-medical-exclusions.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-036b1604771c18110ab6f81f698c8525db9e9dafe417c01631f2fb39daec357b",
+    "sourceCommit": "712a5e0171ea24483214329d0cd7efdfd9b80352"
+  }
+}
