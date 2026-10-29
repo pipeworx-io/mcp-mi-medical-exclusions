@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/mi-medical-exclusions",
   "title": "Mi Medical Exclusions",
   "description": "Michigan Medicaid provider sanctions screening: the Michigan Department of Health and Human…",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/mi-medical-exclusions",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-mi-medical-exclusions",
